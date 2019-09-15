@@ -8,7 +8,7 @@ Tutorial (Lots of credit to this guy, I worked out that it was likely that the p
 
 Download and extract the correct wine version
 
-    curl -L https://lutris.nyc3.cdn.digita... > wine-lutris-vkchildwindow-4.12.1-x86_64.tar.xz
+	curl -L https://lutris.nyc3.cdn.digitaloceanspaces.com/runners/wine/wine-lutris-vkchildwindow-4.12.1-x86_64.tar.xz > wine-lutris-vkchildwindow-4.12.1-x86_64.tar.xz
     
     tar xf wine-lutris-vkchildwindow-4.12.1-x86_64.tar.xz
 
@@ -30,7 +30,7 @@ Install Winetricks
 
 Downloading the newest version of winetricks
 
-    curl -L https://raw.githubusercontent.... > winetricks
+	curl -L https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks > winetricks
     
     chmod +x winetricks
 
